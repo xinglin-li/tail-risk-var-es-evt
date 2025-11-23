@@ -73,7 +73,7 @@ We apply the framework to **TSLA daily log returns** (2012–2025):
 | Student-t  | ...         | ...            | ...                     |
 | EVT-GPD    | ...         | ...            | ...                     |
 
-**Hedge fund style takeaway:**
+**Key takeaway:**
 
 > “For TSLA, EVT-based VaR achieves closer unconditional coverage at the 99% level and reduces exceedance clustering compared to Gaussian VaR, reflecting a better calibration of tail risk under extreme market moves.”
 
