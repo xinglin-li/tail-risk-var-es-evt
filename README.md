@@ -62,7 +62,7 @@ This repository is for research and educational purposes only and does not const
 We apply the framework to **TSLA daily log returns** (2012–2025):
 
 - The empirical return distribution exhibits **strong fat tails** and skewness relative to a Normal benchmark (QQ plot).
-- EVT–GPD fitted on the top 2.5% of losses yields a tail index \( \xi \approx 0.25 \), confirming heavy tails.
+- EVT–GPD fitted on the top 2.5% of losses yields a tail index $ \xi \approx 0.25 $, confirming heavy tails.
 
 ### VaR Backtesting at 99% Level (Rolling, 1000-day window)
 
