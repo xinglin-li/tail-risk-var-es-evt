@@ -3,6 +3,8 @@
 from .returns import compute_log_returns
 from .var_es_historical import historical_var, historical_es
 from .var_es_parametric import (
+    fit_normal_params,
+    fit_t_params,
     parametric_var_normal,
     parametric_es_normal,
     parametric_var_t,

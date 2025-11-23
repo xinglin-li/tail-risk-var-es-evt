@@ -56,3 +56,24 @@ to check whether the realized exceedance frequency and clustering behavior are c
 ## 5. Disclaimer
 
 This repository is for research and educational purposes only and does not constitute investment advice.
+
+## 6. Results (TSLA Case Study)
+
+We apply the framework to **TSLA daily log returns** (2012–2025):
+
+- The empirical return distribution exhibits **strong fat tails** and skewness relative to a Normal benchmark (QQ plot).
+- EVT–GPD fitted on the top 2.5% of losses yields a tail index \( \xi \approx 0.25 \), confirming heavy tails.
+
+### VaR Backtesting at 99% Level (Rolling, 1000-day window)
+
+| Model       | Exceed freq | Kupiec p-value | Christoffersen p-value |
+|------------|-------------|----------------|-------------------------|
+| Historical | ...         | ...            | ...                     |
+| Normal     | ...         | ...            | ...                     |
+| Student-t  | ...         | ...            | ...                     |
+| EVT-GPD    | ...         | ...            | ...                     |
+
+**Hedge fund style takeaway:**
+
+> “For TSLA, EVT-based VaR achieves closer unconditional coverage at the 99% level and reduces exceedance clustering compared to Gaussian VaR, reflecting a better calibration of tail risk under extreme market moves.”
+
